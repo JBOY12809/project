@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    padding-left: 2px;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.firstsection{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgrey;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.firstsection div{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    background-color: white;
+    height: 300px;
+    width: 50px;
+    position: absolute;
+}
+
+.secondsection{
+    height: 100vh;
+}
+
+
+.thirdsection{
+    position: fixed;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(120, 67, 233);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
